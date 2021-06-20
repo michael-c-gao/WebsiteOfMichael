@@ -23,22 +23,14 @@ a:hover {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: underline;
 }
-h1 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 3em;
-}
 
-h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 2em;
-    
-}
 
-h3 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 2em;
-}
 
+h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+h1 { font-size: 3em;  }
+h2 { font-size: 2.7em; }
+h3 { font-size: 2.3em; }
+h4 { font-size: 1.9em; }
 
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
