@@ -1,5 +1,5 @@
 body {
-    
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
     width: 70%;
 }
@@ -30,13 +30,13 @@ h1 {
 
 h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 3em;
+    font-size: 2em;
     
 }
 
 h3 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 3em;
+    font-size: 2em;
 }
 
 
