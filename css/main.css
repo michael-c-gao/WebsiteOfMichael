@@ -24,11 +24,6 @@ a:hover {
     text-decoration: underline;
 }
 
-.verticalmenu {
-    width: 200px; /* Set a width if you like */
-  }
-
-
 h1, h2, h3, h4, h5 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
