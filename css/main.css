@@ -63,3 +63,9 @@ ul.posts li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
 }
+
+
+test {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin: 20px auto;
+}
