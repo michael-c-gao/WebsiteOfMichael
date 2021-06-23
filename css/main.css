@@ -1,3 +1,4 @@
+  
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 60px auto;
@@ -23,6 +24,8 @@ a:hover {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: underline;
 }
+
+
 
 h1, h2, h3, h4, h5 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
@@ -60,10 +63,4 @@ ul.posts {
 ul.posts li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     list-style: none;
-}
-
-
-test {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin: 20px auto;
 }
