@@ -2,9 +2,41 @@
 layout: default
 title: My Projects
 ---
+<html>
+<head>
+	<style>
+	*{
+		box-sizing: border-box
+	}
+	.child{
+		border: 1px solid white;
+	}
+		.parent{
+			border: 1px solid white;
+			display:flex;
+		}
+	</style>	
+</head>
 
 
-		<div class="projects">
+<body>
+
+
+<section class="parent">
+	<section class="child">
+		<nav style="padding-top: 90px;padding-right:30px;">
+	<ul>
+		<li><a href="/">Main()</a></li>
+		<p>  </p>
+	    <li><a href="/projects">Projects;</a></li>
+		<p>  </p>
+	    <li><a href="/contact">Contact;</a></li>
+		<p>  </p>
+	    <li><a href="/blog">README</a></li>	
+	</ul>
+	</nav>
+		</section>
+	<section class="child">
 			<h3>My Work:</h3>
 			<br>
 				
@@ -32,6 +64,10 @@ title: My Projects
 			from the stereo camera system as well as fellow objects around it, for both live video and static images. This in combination with YOLO V4's Object Detection 
 			Neural Network allowed me to simultaneously determine an object's identity, as well as its distance from the camera system,  all in real time (with the option of static images too!).</p>
    <h3><strong><a href="https://github.com/michael-c-gao/Stereo-Camera-Calibration">Check out the repository here!</a></strong></h3>
+</section>
+</section>
 				<br>
 				
 		</div>
+</body>
+</html>
