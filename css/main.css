@@ -13,13 +13,9 @@ nav ul li, footer ul li {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     display: inline;
     margin-right: 20px;
+    font-size: 1.25em;
 }
 
-li {
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 1.5em;
-    
-}
 
 a {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
