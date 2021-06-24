@@ -1,9 +1,54 @@
+
 ---
 layout: default
 ---
+
+
+<html>
+<head>
+	<style>
+	*{
+		box-sizing: border-box
+	}
+	.child{
+		border: 1px solid white;
+	}
+		.parent{
+			border: 1px solid white;
+			display:flex;
+		}
+	</style>	
+</head>
+	
+	
+<body>
+
+<section class="parent">
+	<section class="child">
+		<nav style=
+	"
+	 padding-top: 90px;
+	 padding-right:30px;
+	 ">
+	<ul>
+	    <li><a href="/">Main()</a></li>
+		<p>  </p>
+	    <li><a href="/projects">Projects;</a></li>
+		<p>  </p>
+	    <li><a href="/contact">Contact;</a></li>
+		<p>  </p>
+	    <li><a href="/blog">README</a></li>	
+	</ul>
+	</nav>
+		</section>
+	<section class="child">
 <h3>{{ page.title }}</h3>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
 <div class="post">
   {{ content }}
+</section>
+</section>
 </div>
+</body>
+</html>
