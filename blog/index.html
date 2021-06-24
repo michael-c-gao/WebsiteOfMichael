@@ -2,7 +2,46 @@
 layout: default
 title: My Blog
 ---
-	<br>
+<html>
+<head>
+	<style>
+	*{
+		box-sizing: border-box
+	}
+	.child{
+		border: 1px solid white;
+	}
+		.parent{
+			border: 1px solid white;
+			display:flex;
+		}
+	</style>	
+</head>
+	
+	
+<body>
+
+<section class="parent">
+	<section class="child">
+		<nav style=
+	"
+	 padding-top: 90px;
+	 padding-right:30px;
+	 ">
+	<ul>
+	    <li><a href="/">Main()</a></li>
+		<p>  </p>
+	    <li><a href="/projects">Projects;</a></li>
+		<p>  </p>
+	    <li><a href="/contact">Contact;</a></li>
+		<p>  </p>
+	    <li><a href="/blog">README</a></li>	
+	</ul>
+	</nav>
+		</section>
+
+	<section class="child">
+		<br>
 	<h3>My Blog:</h3>
 	<ul class="posts">
 
@@ -10,3 +49,8 @@ title: My Blog
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
+	</section>
+	</section>
+<br>
+</body>
+</html>
