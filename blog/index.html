@@ -47,6 +47,7 @@ title: My Blog
 
 	  {% for post in site.posts %}
 	    <li><strong><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</strong></a> <span>{{ post.date | date_to_string }}</span></li>
+		<br>
 	  {% endfor %}
 	</ul>
 	</section>
