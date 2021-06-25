@@ -4,16 +4,54 @@ title: My Projects
 ---
 
 
-		<div class="projects">
-			<br>
-			<h1>My Work;</h1>
+<html>
+<head>
+	<style>
+	*{
+		box-sizing: border-box
+	}
+	.child{
+		border: 1px solid white;
+	}
+		.parent{
+			border: 1px solid white;
+			display:flex;
+		}
+	</style>	
+</head>
+	
+	
+<body>
+
+<section class="parent">
+	<section class="child">
+		<nav style=
+	"
+	 padding-top: 90px;
+	 padding-right:30px;
+	 ">
+	<ul>
+	    <li><a href="/">Main()</a></li>
+		<p>  </p>
+	    <li><a href="/projects">Projects;</a></li>
+		<p>  </p>
+	    <li><a href="/contact">Contact;</a></li>
+		<p>  </p>
+	    <li><a href="/blog">README</a></li>	
+	</ul>
+	</nav>
+		</section>
+
+
+<section class="child">
+<h3>My Work;</h3>
 			<br>
 				
 			<img src="web.png" alt="WebofUnity"
 			     width=100%
-			     height=100%/>
+			     height=23%>
 			<br>
-			<h2>Web of Unity: a 3D web-slinging platformer/action game    -(C#, Unity Engine)</h2>
+			<h2>Web of Unity: a 3D web-slinging platformer/action game (C#, Unity Engine)</h2>
 				
 				<p>	
 				As project manager, I led and managed a group of 2 other students by directing tasks, organizing workflow, and hosting scrum meetings; I also 
@@ -23,9 +61,11 @@ title: My Projects
 				(main menu, tutorial, pause, game over/win scenes and respective scripts).</p>
 			<h3><strong><a href="https://mexhal.itch.io/web-of-unity">Play it here!</a></strong></h3>
 			<br>
+			</section>
+			<section class="child">
 			<img src="stereocamera.png" alt="CameraCalibration"
 			     width=100%
-			     height=100%/>	
+			     height=23%>	
 			<br>
 			<h2>Stereo Camera Calibration for YOLO NN Depth Detection/Object Recognition    -(Python, OpenCV, Linux/Windows)</h2>
 			<p>I took a heavily distorted fish-eye stereo camera and calibrated it with Python OPENCV to return live and static rectified images and videos by calculating
@@ -34,5 +74,8 @@ title: My Projects
 			Neural Network allowed me to simultaneously determine an object's identity, as well as its distance from the camera system,  all in real time (with the option of static images too!).</p>
    <h3><strong><a href="https://github.com/michael-c-gao/Stereo-Camera-Calibration">Check out the repository here!</a></strong></h3>
 				<br>
-				
-		</div>
+			</section>
+			</section>
+<br>
+</body>
+</html>
